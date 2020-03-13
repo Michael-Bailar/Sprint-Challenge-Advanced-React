@@ -6,8 +6,8 @@ const PlayerCard = ({players}) => {
             {players.map(player => {
                 return (
                     <div key={player.id} className="player-card">
-                        <h2>{player.name}</h2>
-                <p>{player.country}</p>
+                        <h2 data-testid={`player-card-${player.name}`} >{player.name}</h2>
+                        <p data-testid={`player-card-${player.country}`} >{player.country}</p>
                     </div>
                 )
             })}

@@ -22,10 +22,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] Why would you use class component over function components (removing hooks from the question)?
+    Class components do a better job of showing what's going on. Since the function components are streamlined, you might not always be able to tell what's going on.
+- [x] Name three lifecycle methods and their purposes.
+    componentDidMount(Runs the code inside when the component first mounts to the DOM)
+    componentDidUpdate(Runs code whenever the state in the component Changes.)
+    componentWillUnmount(unmounts the component from the DOM)
+- [x] What is the purpose of a custom hook?
+    The purpose of custom hooks is to provide easier to read, more reusable components. It's stateful :)
+- [x] Why is it important to test our apps?
+    It's important to test our apps because we need to be sure that our app is running correctly so that, as we add on to our aps, we can be sure that it will continue to work over the long run. 
 
 ## Project Set Up
 
@@ -44,20 +50,20 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request.
+- [x] PM then will count the HW as done by merging the branch back into master.
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-- [ ] Class component that fetches data from the server you now have running - the data can be fetched from `http://localhost:5000/api/players`
-- [ ] Display the player data you receive from the API
-- [ ] Build a custom hook and use it in your app - this can be a localStorage hook, a fetch hook, a dark mode hook, or any other hook you would like
+- [x] Class component that fetches data from the server you now have running - the data can be fetched from `http://localhost:5000/api/players`
+- [x] Display the player data you receive from the API
+- [x] Build a custom hook and use it in your app - this can be a localStorage hook, a fetch hook, a dark mode hook, or any other hook you would like
 - [ ] Write a "reasonable" amount of unit tests for your React components. What does "reasonable amount" mean? That is up to you to decide. Be ready to defend your choice to your TL 👍
 
 ## Stretch Problems
 
-- [ ] Implement another custom hook
+- [x] Implement another custom hook
 - [ ] Use a graphing library to graph the data you received from the API
