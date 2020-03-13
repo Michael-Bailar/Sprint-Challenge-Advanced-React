@@ -1,5 +1,6 @@
 import React from "react"
 import axios from "axios"
+import PlayerCard from "./PlayerCard"
 
 const players = []
 
@@ -29,7 +30,7 @@ class PlayersList extends React.Component {
         return(
             <div>
                 <h1>So Many Runners!</h1>
-                {/* <PlayerCard /> */}
+                <PlayerCard players={this.state.players}/>
             </div>
         )
     }
